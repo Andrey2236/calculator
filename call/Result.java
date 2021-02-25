@@ -28,7 +28,7 @@ public class Result {
 				 result = num1-num2;
 			} else if(znak.equals("*")) {
 				 result = num1*num2;
-			} else if(znak.equals("-")) {
+			} else if(znak.equals("/")) {
 				 result = num1/num2;
 			}
 			return result;
