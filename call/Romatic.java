@@ -88,8 +88,17 @@ public class Romatic {
 
 
 		    private static String L(int in) {
-		        if (in == 4) return "XC";
-		                 return "";
+			 if (in == 4) return "XC";
+		        else if ((in != 0) && (in < 9)) {
+		            StringBuffer a = new StringBuffer("");
+		            int i = 0;
+		            while (i < in) {
+		                a.append("L");
+		                i++;
+		            }
+		            return a.toString();
+		        }
+		        else return "";
 
 		            }
 		           
